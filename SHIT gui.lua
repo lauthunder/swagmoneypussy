@@ -55,17 +55,3 @@ end)
 d:Drop("Weapons",{"Sword","Melee","gun"},function(a)
    print(a)
 end)
-
-local d_t = {
-   "Auto Farm",
-   "Auto Stats",
-   "Auto Quest",
-   "Auto Kick",
-   "Anti Mod",
-}
-d:Slider("Distance ",-5,20)
-d:Button("Hide Name")
-d:Box("Fake Name")
-d:Text("Target : N/A")
-for i,v in next,d_t do d:Toggle(v) end
-d:h1("END")
